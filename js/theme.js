@@ -17,7 +17,9 @@ const disableDark = () => {
 
 if (darkTheme === 'enabled') {
     enableDark();
-} 
+} else {
+ enableDark();
+}
 
 themeToggle.addEventListener('click', () => {
     darkTheme = localStorage.getItem('darkTheme');
