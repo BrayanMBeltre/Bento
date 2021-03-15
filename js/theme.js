@@ -29,3 +29,4 @@ themeToggle.addEventListener('click', () => {
         disableDark();
     }
 });
+enableDark();
